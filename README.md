@@ -2,15 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
-[![Statsmodels](https://img.shields.io/badge/Statsmodels-0.14.0-yellowgreen?logo=python)](https://www.statsmodels.org/stable/index.html)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn)](https://scikit-learn.org/stable/)
-[![Pmdarima](https://img.shields.io/badge/Pmdarima-2.0.4-8A2BE2)](https://alkaline-ml.com/pmdarima/)
-
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Statsmodels](https://img.shields.io/badge/Statsmodels-0.14.0-yellowgreen?logo=python&logoColor=yellow)](https://www.statsmodels.org/stable/index.html)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![Pmdarima](https://img.shields.io/badge/Pmdarima-2.0.4-8A2BE2)](https://alkaline-ml.com/pmdarima/)
 
 **UNIST 2023년 Fall Semester**
