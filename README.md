@@ -43,7 +43,8 @@
 * **최종 예측**: 이 '평활화된' 시계열 데이터를 **ARIMA 모델**에 다시 적용하여 미래를 예측합니다.
 
 ![VAE Smoothing Process](./assets/vae_smoothing_graph.png)
-*(논문 Figure 6: VAE를 통한 이상치 평활화 예시)*
+
+*(리포트 Figure 6: VAE를 통한 이상치 평활화 예시)*
 
 ## 3. 📊 실험 결과 (Results)
 
@@ -59,7 +60,8 @@ Coca-Cola (KO) 주식의 2000년부터 2020년까지 데이터를 사용했습�
 *(논문 Table 3: 모델별 예측 성능 비교)*
 
 ![Refactored ARIMA Prediction](./assets/refactored_arima_graph.png)
-*(논문 Figure 7: 최종 예측 비교. Re-factored 99 ARIMA(초록색)가 기존 ARIMA(빨간색)보다 실제 값(파란색)에 더 근접함)*
+
+*(리포트 Figure 7: 최종 예측 비교. Re-factored 99 ARIMA(초록색)가 기존 ARIMA(빨간색)보다 실제 값(파란색)에 더 근접함)*
 
 ## 4. 🏁 결론 및 한계
 
