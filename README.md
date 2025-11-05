@@ -1,9 +1,9 @@
 # ARIMA 모델의 충격 완화 접근법 (Shock Relaxed Approaches With Refactored ARIMA Model)
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
-[![Keras](https://img.shields.io/badge/Keras-TensorFlow-FF0000.svg)](https://keras.io/)
-[![Statsmodels](https://img.shields.io/badge/Statsmodels-0.14.0-yellowgreen.svg)](https://www.statsmodels.org/stable/index.html)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-orange.svg)](https://scikit-learn.org/stable/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)](https://www.tensorflow.org/)
+[![Statsmodels](https://img.shields.io/badge/Statsmodels-0.14.0-yellowgreen?logo=python)](https://www.statsmodels.org/stable/index.html)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn)](https://scikit-learn.org/stable/)
+[![Pmdarima](https://img.shields.io/badge/Pmdarima-2.0.4-8A2BE2)](https://alkaline-ml.com/pmdarima/)
 
 **UNIST 2023년 Fall Semester**
 시계열 분석 (FIA52301) 기말 그룹 프로젝트 (12조)
