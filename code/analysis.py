@@ -30,7 +30,7 @@ print("All modules imported.")
 print("Loading data...")
 start_date = '2000-01-01'
 end_date = '2020-12-31'
-[cite_start]raw_df = fdr.DataReader('KO', start_date, end_date) # Coca-Cola (KO) [cite: 160, 322]
+raw_df = fdr.DataReader('KO', start_date, end_date) # Coca-Cola (KO) [cite: 160, 322]
 df = raw_df[['Close']].copy()
 
 # 차분 및 스케일링
@@ -42,7 +42,7 @@ scaler = MinMaxScaler().fit(train[['Close']])
 train['Close'] = scaler.transform(train[['Close']])
 
 # 시퀀스 데이터 생성
-[cite_start]seq_size = 7 # 7-day time steps [cite: 66]
+seq_size = 7 # 7-day time steps [cite: 66]
 def to_sequence(x, y, seq_size=1):
     x_values = []
     y_values = []
@@ -83,7 +83,7 @@ z = Lambda(sampling)([z_mean, z_log_var])
 repeat_layer = RepeatVector(time_steps)
 decoder_h = LSTM(intermediate_dim, activation='relu', recurrent_activation='sigmoid', return_sequences=True, recurrent_dropout=0.4, unroll=True)
 decoder_mean = TimeDistributed(Dense(input_dim, 'sigmoid'))
-[cite_start]decoder_var = TimeDistributed(Dense(input_dim, activation='softplus')) # [cite: 393]
+decoder_var = TimeDistributed(Dense(input_dim, activation='softplus')) # [cite: 393]
 
 h_decoded = repeat_layer(z)
 h_decoded = decoder_h(h_decoded)
@@ -194,7 +194,7 @@ for i in temp_df.index:
         temp_df.loc[i, 'cal'] = temp_df.loc[i, 'day'] - temp_df.loc[i, 'Close']
 reconstruction_error = temp_df['cal']
 
-# [cite_start]99 백분위수(Percentile)를 임계값으로 설정 [cite: 95]
+# 99 백분위수(Percentile)를 임계값으로 설정 [cite: 95]
 threshold = np.percentile(reconstruction_error, 99)
 outliers = np.where(reconstruction_error > threshold)
 print("Anomaly Indices:", outliers)
@@ -220,7 +220,7 @@ ano_df.loc[ano_df['sigma'] < ano_sig_min, 'sigma'] = ano_sig_min # (코드 오�
 ano_df['true_close'] = Y_train['Close']
 ano_df['smooth_close'] = ano_df['true_close'].copy()
 
-# [cite_start]평활화(Smoothing) 적용 [cite: 196, 197]
+# 평활화(Smoothing) 적용 [cite: 196, 197]
 print("Applying smoothing to anomalies...")
 for idx in ano_df.index:
     if ano_df.loc[idx, 'anomal'] == 1:
