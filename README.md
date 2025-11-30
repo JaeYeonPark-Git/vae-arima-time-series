@@ -6,8 +6,7 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![Pmdarima](https://img.shields.io/badge/Pmdarima-2.0.4-8A2BE2)](https://alkaline-ml.com/pmdarima/)
 
-**UNIST 2023년 Fall Semester**
-시계열 분석 (FIA52301) 기말 그룹 프로젝트 (12조)
+Course Project: Time Series Analysis (UNIST, Fall 2023)
 
 **Authors:**
 * Daehyuk Bu
