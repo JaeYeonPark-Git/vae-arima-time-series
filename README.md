@@ -6,7 +6,7 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3.0-F7931E?logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![Pmdarima](https://img.shields.io/badge/Pmdarima-2.0.4-8A2BE2)](https://alkaline-ml.com/pmdarima/)
 
-Course Project: Time Series Analysis (UNIST, Fall 2023)
+**Course Project: Time Series Analysis (UNIST, Fall 2023)**
 
 **Authors:**
 * Daehyuk Bu
