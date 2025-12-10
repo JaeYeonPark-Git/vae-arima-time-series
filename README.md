@@ -48,7 +48,7 @@ VAE가 탐지한 이상치들의 신뢰도를 높이기 위해, 밀도 기반 �
 탐지된 이상치를 단순 제거하는 것이 아니라, VAE가 학습한 확률 분포를 활용해 값을 보정합니다.
 
 * **Smoothing Logic**: 이상치로 판별된 시점의 실제 주가(True Close)를 VAE가 예측한 분포 범위 내로 조정합니다.
-    * $$\mathrm{Smooth_Close} = \mathrm{Reconstructed_Mean} \pm (3 \times \mathrm{Reconstructed_Sigma})$$
+    * $$\mathrm{Smooth\_Close} = \mathrm{Reconstructed\_Mean} \pm (3 \times \mathrm{Reconstructed\_Sigma})$$
 * **Refactored ARIMA**: 평활화된(Smoothed) 데이터를 사용하여 **Auto-ARIMA**($p, d, q$ 최적화)를 수행하고, 이를 기반으로 미래 주가를 예측합니다.
 
 ![VAE Smoothing Process](./assets/vae_smoothing_graph.png)
